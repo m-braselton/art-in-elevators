@@ -91,6 +91,16 @@ textarea {
 html {
   font-size: 16px;
 }
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 40px;
+}
+header li {
+  display:flex;
+}
 
 body{
   background-color: #cde8fa;
@@ -98,7 +108,7 @@ body{
   font-family: 'Cormorant Garamond', serif;
   color:#449903;
   text-align:left;
-  margin: 10%;
+  margin: 0 10% 5% 10%;
 }
 img {
   width: 100%;
@@ -182,17 +192,17 @@ height: 120px;
 .map {
   padding: 2em;
 }
-.social h4 {
+footer .social h4 {
   display: flex;
   justify-content: center;
   font-size: 2em;
   margin: 5%;
 }
-.social-icons {
+footer .social-icons {
   display: flex;
   justify-content: center;
 }
-.social-icons p {
+footer .social-icons p {
   width:4em;
   display: flex;
   justify-content: center;
